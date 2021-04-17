@@ -1,0 +1,16 @@
+{
+	"injectionSelector": "L:source -comment -string",
+	"patterns": [
+		{
+			"contentName": "source.css.scss",
+			"begin": "(?:css|scss|sass)(?:\\.global)?(`)",
+			"end": "`",
+			"patterns": [
+				{
+					"include": "source.css.scss"
+				}
+			]
+		}
+	],
+	"scopeName": "sass-template"
+}

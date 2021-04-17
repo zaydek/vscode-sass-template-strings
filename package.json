@@ -1,0 +1,47 @@
+{
+	"name": "sass-template-strings",
+	"displayName": "Sass Template Strings",
+	"publisher": "ZaydekMichels-Gualtieri",
+	"repository": "https://github.com/zaydek/vscode-sass-template-strings",
+	"license": "MIT",
+	"version": "0.0.2",
+	"description": "Syntax highlighting for CSS and Sass template strings.",
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"javascript",
+		"jsx",
+		"typescript",
+		"tsx",
+		"markdown",
+		"mdx",
+		"css",
+		"sass",
+		"scss",
+		"template string",
+		"syntax highlighting"
+	],
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"contributes": {
+		"grammars": [
+			{
+				"injectTo": [
+					"source.js",
+					"source.ts",
+					"source.jsx",
+					"source.js.jsx",
+					"source.tsx",
+					"source.vue"
+				],
+				"path": "./syntaxes/sass-template.json",
+				"scopeName": "sass-template"
+			}
+		]
+	},
+	"scripts": {
+		"prepare": "node ./node_modules/vscode/bin/install"
+	}
+}
