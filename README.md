@@ -22,4 +22,8 @@ sass`
 `
 ```
 
-[sass-template-strings](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) is a fork of [`sass-in-template-string`](https://marketplace.visualstudio.com/items?itemName=enhancedjs.sass-in-template-string) which is a fork of which is a fork of [`vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
+[`sass-template-strings`](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) is a fork of [`sass-in-template-string`](https://marketplace.visualstudio.com/items?itemName=enhancedjs.sass-in-template-string) which is a fork of [`vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
+
+---
+
+Licensed as [MIT](/LICENSE).
