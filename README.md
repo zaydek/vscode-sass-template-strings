@@ -8,16 +8,16 @@ For example:
 css`
 /* Adds syntax highlighting here */
 .foo bar {
-	content: "baz";
+  content: "baz";
 }
 `
 
 sass`
 /* And here */
 .foo {
-	.bar {
-		content: "baz";
-	}
+  .bar {
+    content: "baz";
+  }
 }
 `
 ```
