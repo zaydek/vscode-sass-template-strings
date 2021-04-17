@@ -4,7 +4,7 @@
 	"publisher": "ZaydekMichels-Gualtieri",
 	"repository": "https://github.com/zaydek/vscode-sass-template-strings",
 	"license": "MIT",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Syntax highlighting for CSS and Sass template strings.",
 	"categories": [
 		"Programming Languages"

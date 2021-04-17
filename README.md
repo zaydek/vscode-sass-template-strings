@@ -1,19 +1,19 @@
-# Sass template strings
+# Sass Template Strings (VS Code Extension)
 
-[This plugin](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) adds first-class Sass syntax highlighting support for `css`, `sass`, and `scss` ES6 template literals.
+[VS Code extension](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) to add first-class CSS and Sass syntax highlighting for `css`, `sass`, and `scss` ES6 template literals (template strings).
 
 For example:
 
 ```jsx
 css`
-// Adds syntax highlighting here
+/* Adds syntax highlighting here */
 .foo bar {
 	content: "baz";
 }
 `
 
 sass`
-// And here
+/* And here */
 .foo {
 	.bar {
 		content: "baz";
@@ -22,4 +22,4 @@ sass`
 `
 ```
 
-[This plugin](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) is a fork of [`sass-in-template-string`](https://marketplace.visualstudio.com/items?itemName=enhancedjs.sass-in-template-string) which is a fork of which is a fork of [`vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
+[sass-template-strings](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) is a fork of [`sass-in-template-string`](https://marketplace.visualstudio.com/items?itemName=enhancedjs.sass-in-template-string) which is a fork of which is a fork of [`vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
