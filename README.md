@@ -4,7 +4,7 @@
 
 For example:
 
-```jsx
+```js
 css`
 /* Adds syntax highlighting here */
 .foo bar {
