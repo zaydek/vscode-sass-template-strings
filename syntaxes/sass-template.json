@@ -3,7 +3,7 @@
 	"patterns": [
 		{
 			"contentName": "source.css.scss",
-			"begin": "(?:css|scss|sass)(?:\\.global)?(`)",
+			"begin": "(?:css|sass|scss)(?:\\.[$A-Za-z_][$A-Za-z0-9_]+)*(`)",
 			"end": "`",
 			"patterns": [
 				{
