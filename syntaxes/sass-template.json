@@ -10,6 +10,16 @@
 					"include": "source.css.scss"
 				}
 			]
+		},
+		{
+			"contentName": "source.css.scss",
+			"begin": "(?:sass|s?css)(?:\\.[$a-zA-Z_]+[$a-zA-Z_0-9]*)*\\(`",
+			"end": "`\\)",
+			"patterns": [
+				{
+					"include": "source.css.scss"
+				}
+			]
 		}
 	],
 	"scopeName": "sass-template"

@@ -4,23 +4,19 @@
 	"publisher": "ZaydekMichels-Gualtieri",
 	"repository": "https://github.com/zaydek/vscode-sass-template-strings",
 	"license": "MIT",
-	"version": "0.0.8",
-	"description": "Syntax highlighting for CSS and Sass template strings.",
+	"version": "0.1.0",
+	"description": "Syntax highlighting for CSS and Sass template strings and functions",
 	"categories": [
 		"Programming Languages"
 	],
 	"keywords": [
-		"javascript",
-		"jsx",
-		"typescript",
-		"tsx",
-		"markdown",
-		"mdx",
-		"css",
 		"sass",
-		"scss",
+		"javascript",
 		"template string",
-		"syntax highlighting"
+		"syntax highlighting",
+		"react",
+		"vue",
+		"svelte"
 	],
 	"engines": {
 		"vscode": "^1.5.0"
@@ -30,11 +26,11 @@
 			{
 				"injectTo": [
 					"source.js",
-					"source.ts",
 					"source.jsx",
-					"source.js.jsx",
+					"source.ts",
 					"source.tsx",
-					"source.vue"
+					"source.vue",
+					"source.svelte"
 				],
 				"path": "./syntaxes/sass-template.json",
 				"scopeName": "sass-template"

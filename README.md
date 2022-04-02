@@ -5,21 +5,30 @@
 For example:
 
 ```js
+// Adds syntax highlighting here
 css`
-/* Adds syntax highlighting here */
-.foo bar {
-  content: "baz";
-}
-`
-
-sass`
-/* And here */
-.foo {
-  .bar {
+  .foo bar {
     content: "baz";
   }
-}
 `
+
+// Here
+sass`
+  .foo {
+    .bar {
+      content: "baz";
+    }
+  }
+`
+
+// And here
+sass(`
+  .foo {
+    .bar {
+      content: "baz";
+    }
+  }
+`)
 ```
 
 [`sass-template-strings`](https://marketplace.visualstudio.com/items?itemName=ZaydekMichels-Gualtieri.sass-template-strings) is a fork of [`sass-in-template-string`](https://marketplace.visualstudio.com/items?itemName=enhancedjs.sass-in-template-string) which is a fork of [`vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
